@@ -2,7 +2,7 @@
 // @name         Tickera dummy data
 // @namespace    https://ticketree.de/
 // @version      1.0
-// @description  Fügt einen Knopf hinzu, der Dummy-Daten in die Formularfelder einträgt.
+// @description  Add a button which fills dummy-data
 // @author       Paul Rennecke
 // @match        https://ticketree.de/kasse/
 // @grant        none
