@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Tickera dummy data
 // @namespace    https://ticketree.de/
-// @version      1.0
-// @description  Add a button that fills dummy-data
+// @version      1.1
+// @description  Add a button that fills dummy data
 // @author       Paul Rennecke
 // @match        https://ticketree.de/kasse/
 // @grant        none
