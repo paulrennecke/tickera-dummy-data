@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Dummy-Daten eintragen
+// @name         Tickera dummy data
 // @namespace    https://ticketree.de/
 // @version      1.0
 // @description  Fügt einen Knopf hinzu, der Dummy-Daten in die Formularfelder einträgt.
