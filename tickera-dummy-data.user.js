@@ -37,6 +37,8 @@
             } else if (name.startsWith('owner_data_owner_email_')) {
                 input.value = jsonData?.[counters.email]?.[2] || 'massenerstellung@ticketree.de';
                 counters.email++;
+            } else if (name.startsWith('owner_data_tc_ff_platzierung')) {
+                input.value = jsonData?.[counters.firstName]?.[3] || '-';
             } else if (defaultValues[name] !== undefined) {
                 input.value = defaultValues[name];
             }
