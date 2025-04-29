@@ -24,7 +24,7 @@
             billing_postcode: '12345'
         };
 
-        let counters = { firstName: 0, lastName: 0, email: 0 };
+        let counters = { firstName: 0, lastName: 0, email: 0, platzierung: 0 };
 
         document.querySelectorAll('input').forEach(input => {
             const name = input.name;
@@ -38,7 +38,8 @@
                 input.value = jsonData?.[counters.email]?.[2] || 'massenerstellung@ticketree.de';
                 counters.email++;
             } else if (name.startsWith('owner_data_tc_ff_platzierung')) {
-                input.value = jsonData?.[counters.firstName]?.[3] || '-';
+                input.value = jsonData?.[counters.platzierung]?.[3] || '-';
+                counters.platzierung++;
             } else if (defaultValues[name] !== undefined) {
                 input.value = defaultValues[name];
             }
