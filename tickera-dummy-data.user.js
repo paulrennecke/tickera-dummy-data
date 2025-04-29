@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tickera fill data
 // @namespace    https://ticketree.de/
-// @version      1.2
+// @version      1.3
 // @description  Add buttons that fills dummy data or from xlsx
 // @author       Paul Rennecke
 // @match        https://ticketree.de/kasse/
